@@ -92,6 +92,7 @@ Gestão de aulas	Adição, edição e remoção de aulas
 Gestão de exercícios	Criação, edição e exclusão de exercícios
 Correção de respostas	Atribuição de notas e feedbacks
 Visualização de submissões	Acesso a todas as respostas dos alunos
+
 Tecnologias Utilizadas
 Python 3.x: Linguagem principal
 
@@ -123,17 +124,31 @@ DADOS INICIAIS:
 
 ESTRUTURA DE DIRETÓRIOS
 projeto-curso/
-├── data/               # Dados persistentes
-│   ├── usuarios.json   # Usuários cadastrados
-│   └── cursos.json     # Cursos, aulas e exercícios
-├── package/            # Código fonte
-│   ├── __init__.py
-│   ├── user.py         # Classes Usuario, Aluno, Professor
-│   ├── course.py       # Classes Curso, Aula, Exercicio
-│   ├── persistence.py  # GerenciadorPersistencia
-│   ├── gui_aluno.py    # Interface do aluno
-│   ├── gui_professor.py# Interface do professor
-│   └── gui_common.py   # Componentes comuns (login, cadastro)
-├── main_aluno.py       # Ponto de entrada para aluno
-├── main_professor.py   # Ponto de entrada para professor
+├── data/
+
+│  ├── usuarios.json
+
+│  └── cursos.json
+
+├── package/
+
+│  ├── __init__.py
+
+│  ├── user.py
+
+│  ├── course.py
+
+│  ├── persistence.py
+
+│  ├── gui_aluno.py
+
+│  ├── gui_professor.py
+
+│  └── gui_common.py
+
+├── main_aluno.py
+
+├── main_professor.py
+
 └── README.md
+
