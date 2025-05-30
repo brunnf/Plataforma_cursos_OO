@@ -1,0 +1,27 @@
+[
+  {
+    "course_id": 1,
+    "title": "Lingaugem C",
+    "professor_id": 1,
+    "aulas": [
+      {
+        "aula_id": 1,
+        "title": "Aula 01 - Introdu\u00e7\u00e3o \u00e0 Linguagem C",
+        "content": "Objetivos da Aula\n- Entender o que \u00e9 a linguagem C e sua import\u00e2ncia\n- Conhecer a estrutura b\u00e1sica de um programa em C\n- Aprender a compilar e executar um programa simples\n- Escrever o primeiro programa: \"Ol\u00e1, Mundo!\"\n\n\ud83d\udccc 1. O que \u00e9 a Linguagem C?\nA linguagem C \u00e9 uma linguagem de programa\u00e7\u00e3o criada em 1972 por Dennis Ritchie. Ela \u00e9 conhecida por ser:\n- Port\u00e1til: funciona em diversos sistemas operacionais\n- Eficiente: pr\u00f3xima do hardware, muito usada em sistemas embarcados\n- Base de outras linguagens: C++ e Java s\u00e3o influenciadas por C\n\n\ud83d\udccc 2. Estrutura B\u00e1sica de um Programa em C\n\n#include <stdio.h>  // Inclus\u00e3o da biblioteca padr\u00e3o de entrada e sa\u00edda\n\nint main() {\n    printf(\"Ol\u00e1, Mundo!\\\\n\");  // Imprime na tela\n    return 0;  // Retorna 0 para indicar que o programa terminou com sucesso\n}\n\nExplica\u00e7\u00e3o:\n- #include <stdio.h>: importa fun\u00e7\u00f5es como printf()\n- int main(): fun\u00e7\u00e3o principal que \u00e9 executada ao rodar o programa\n- return 0;: indica sucesso ao finalizar o programa\n\n\ud83d\udccc 3. Compila\u00e7\u00e3o e Execu\u00e7\u00e3o\n\nPassos para rodar um programa C:\n\n1. Escreva o c\u00f3digo em um arquivo .c, por exemplo: hello.c\n2. Compile com um compilador, como o gcc:\n   gcc hello.c -o hello\n3. Execute:\n   ./hello\n\nCompiladores comuns:\n- GCC (Linux, Windows com MinGW)\n- Clang (Mac, Linux)\n- TDM-GCC ou Dev-C++ (Windows)\n\n\ud83d\udccc 4. Palavras-chave e Sintaxe\n\n- Toda instru\u00e7\u00e3o termina com ;\n- Coment\u00e1rios:\n  - Linha \u00fanica: // coment\u00e1rio\n  - M\u00faltiplas linhas:\n    /* coment\u00e1rio\n       de v\u00e1rias linhas */\n"
+      }
+    ],
+    "exercises": [
+      {
+        "exercise_id": 1,
+        "title": "Exercicio 01",
+        "question": "1) Escreva um programa que exiba seu nome na tela.",
+        "submissions": {
+          "2": "#include <stdio.h>\n\nint main() \n{\n\tasdklksdjmlakdmslmd\n\n}",
+          "3": "asdjlbf",
+          "3": "#include <stdio.h>\n\nint main ()\n{\nprintf(\"O meu nome \u00e9 Bruno!\");\nreturn 0;\n}"
+        },
+        "corrections": {}
+      }
+    ]
+  }
+]
