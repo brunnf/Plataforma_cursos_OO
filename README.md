@@ -15,7 +15,7 @@ O sistema resolve o problema de organização e gestão de conteúdo educacional
 
 ## Casos de Uso
 
-### 🆕 Cadastro de Usuário
+###  Cadastro de Usuário
 
 Acesse a tela de login
 
@@ -29,7 +29,7 @@ Sistema valida e cria nova conta
 
 ---
 
-### 🔑 Login
+###  Login
 
 Insira email e senha
 
@@ -39,7 +39,7 @@ Redireciona para interface correspondente
 
 ---
 
-### 👨‍🎓 Aluno Visualiza Curso
+###  Aluno Visualiza Curso
 
 Faça login como aluno
 
@@ -49,7 +49,7 @@ Sistema exibe conteúdo organizado em aulas e exercícios
 
 ---
 
-### ✍️ Aluno Responde Exercício
+###  Aluno Responde Exercício
 
 Selecione exercício
 
@@ -61,7 +61,7 @@ Sistema armazena a resposta
 
 ---
 
-### ➕ Professor Cria Curso
+###  Professor Cria Curso
 
 Faça login como professor
 
@@ -73,7 +73,7 @@ Sistema cria curso e adiciona à lista
 
 ---
 
-### 📚 Professor Adiciona Aula
+###  Professor Adiciona Aula
 
 Selecione curso
 
@@ -85,7 +85,7 @@ Sistema adiciona aula ao curso
 
 ---
 
-### 📝 Professor Corrige Exercício
+###  Professor Corrige Exercício
 
 Selecione exercício
 
@@ -103,7 +103,7 @@ Clique em "Salvar Correção"
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 ### 👨‍🎓 Para Alunos
 
@@ -144,13 +144,18 @@ Clique em "Salvar Correção"
 ### INSTRUÇÕES:
 
 1. Clone o repositório:
-   git clone https://github.com/seu-usuario/projeto-curso.git
-   cd projeto-curso
+   
+   git clone https://github.com/brunnf/Plataforma_cursos_OO
+   cd Plataforma_cursos_OO
 
-2. Execute a aplicação:
+3. Execute a aplicação:
+   
 - Para aluno:
+  
      python main_aluno.py
+
 - Para professor:
+  
      python main_professor.py
 
 ## DADOS INICIAIS:
