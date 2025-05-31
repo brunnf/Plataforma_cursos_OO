@@ -17,7 +17,7 @@ O sistema resolve o problema de organização e gestão de conteúdo educacional
 
 ### 🆕 Cadastro de Usuário
 
-''' Acesse a tela de login
+Acesse a tela de login
 
 Clique em "Cadastrar"
 
@@ -27,6 +27,8 @@ Selecione perfil (Aluno ou Professor)
 
 Sistema valida e cria nova conta
 
+---
+
 ### 🔑 Login
 
 Insira email e senha
@@ -35,6 +37,8 @@ Sistema verifica credenciais
 
 Redireciona para interface correspondente
 
+---
+
 ### 👨‍🎓 Aluno Visualiza Curso
 
 Faça login como aluno
@@ -42,6 +46,8 @@ Faça login como aluno
 Selecione curso na lista
 
 Sistema exibe conteúdo organizado em aulas e exercícios
+
+---
 
 ### ✍️ Aluno Responde Exercício
 
@@ -53,6 +59,8 @@ Clique em "Enviar Resposta"
 
 Sistema armazena a resposta
 
+---
+
 ### ➕ Professor Cria Curso
 
 Faça login como professor
@@ -63,6 +71,8 @@ Insira título do curso
 
 Sistema cria curso e adiciona à lista
 
+---
+
 ### 📚 Professor Adiciona Aula
 
 Selecione curso
@@ -72,6 +82,8 @@ Clique em "+ Nova Aula"
 Insira título e conteúdo
 
 Sistema adiciona aula ao curso
+
+---
 
 ### 📝 Professor Corrige Exercício
 
@@ -88,6 +100,8 @@ Atribua nota
 Escreva feedback
 
 Clique em "Salvar Correção"
+
+---
 
 ## 🚀 Funcionalidades
 
