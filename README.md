@@ -126,7 +126,13 @@ Clique em "Salvar Correção"
 
 ---
 
-#### Tecnologias Utilizadas
+## Diagram de Classes
+
+![Diagrama_de_classes](https://github.com/user-attachments/assets/12c11ae3-3f27-41c7-84ea-6cfa103f1ab1)
+
+---
+
+### Tecnologias Utilizadas
 
 - Python 3.x: Linguagem principal
 
