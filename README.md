@@ -17,7 +17,7 @@ O sistema resolve o problema de organização e gestão de conteúdo educacional
 
 ### 🆕 Cadastro de Usuário
 
-Acesse a tela de login
+''' Acesse a tela de login
 
 Clique em "Cadastrar"
 
@@ -98,7 +98,6 @@ Clique em "Salvar Correção"
 | **Listagem de cursos**    | Visualização de todos os cursos disponíveis   |
 | **Conteúdo de aulas**     | Acesso ao material textual das aulas          |
 | **Resposta a exercícios** | Envio de respostas para exercícios propostos  |
-| **Visualização de feedback** | Acesso a notas e comentários do professor   |
 | **Status de exercícios**  | Indicação visual (Enviado/Corrigido)          |
 
 ### 👨‍🏫 Para Professores
@@ -115,13 +114,12 @@ Clique em "Salvar Correção"
 
 #### Tecnologias Utilizadas
 
-Python 3.x: Linguagem principal
+- Python 3.x: Linguagem principal
 
-Tkinter: Framework para interface gráfica
+- Tkinter: Framework para interface gráfica
 
-JSON: Sistema de persistência de dados
+- JSON: Sistema de persistência de dados
 
-POO: Programação Orientada a Objetos
 
 ## COMO EXECUTAR
 
@@ -189,3 +187,8 @@ projeto-curso/
 
 └── README.md
 
+# ✏️ Autor
+
+Bruno Ferreira Dornelas
+
+Projeto acadêmico para a disciplina de Orientação a Objetos – UnB Gama – 2025/1
