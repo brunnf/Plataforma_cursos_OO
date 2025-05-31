@@ -13,8 +13,9 @@ O sistema resolve o problema de organização e gestão de conteúdo educacional
 
 ---
 
-Casos de Uso
-## 🆕 Cadastro de Usuário
+## Casos de Uso
+
+### 🆕 Cadastro de Usuário
 
 Acesse a tela de login
 
@@ -26,7 +27,7 @@ Selecione perfil (Aluno ou Professor)
 
 Sistema valida e cria nova conta
 
-##🔑 Login
+### 🔑 Login
 
 Insira email e senha
 
@@ -34,7 +35,7 @@ Sistema verifica credenciais
 
 Redireciona para interface correspondente
 
-## 👨‍🎓 Aluno Visualiza Curso
+### 👨‍🎓 Aluno Visualiza Curso
 
 Faça login como aluno
 
@@ -42,7 +43,7 @@ Selecione curso na lista
 
 Sistema exibe conteúdo organizado em aulas e exercícios
 
-## ✍️ Aluno Responde Exercício
+### ✍️ Aluno Responde Exercício
 
 Selecione exercício
 
@@ -52,7 +53,7 @@ Clique em "Enviar Resposta"
 
 Sistema armazena a resposta
 
-## ➕ Professor Cria Curso
+### ➕ Professor Cria Curso
 
 Faça login como professor
 
@@ -62,7 +63,7 @@ Insira título do curso
 
 Sistema cria curso e adiciona à lista
 
-## 📚 Professor Adiciona Aula
+### 📚 Professor Adiciona Aula
 
 Selecione curso
 
@@ -72,7 +73,7 @@ Insira título e conteúdo
 
 Sistema adiciona aula ao curso
 
-## 📝 Professor Corrige Exercício
+### 📝 Professor Corrige Exercício
 
 Selecione exercício
 
@@ -104,7 +105,7 @@ Gestão de exercícios	Criação, edição e exclusão de exercícios
 Correção de respostas	Atribuição de notas e feedbacks
 Visualização de submissões	Acesso a todas as respostas dos alunos
 
-Tecnologias Utilizadas
+#### Tecnologias Utilizadas
 Python 3.x: Linguagem principal
 
 Tkinter: Framework para interface gráfica
@@ -113,25 +114,34 @@ JSON: Sistema de persistência de dados
 
 POO: Programação Orientada a Objetos
 
-COMO EXECUTAR
+## COMO EXECUTAR
 
-PRÉ-REQUISITOS:
+### PRÉ-REQUISITOS:
 - Python 3.x instalado
 
-INSTRUÇÕES:
+### INSTRUÇÕES:
 1. Clone o repositório:
    git clone https://github.com/seu-usuario/projeto-curso.git
    cd projeto-curso
 
 2. Execute a aplicação:
-   - Para aluno:
+- Para aluno:
      python main_aluno.py
-   - Para professor:
+- Para professor:
      python main_professor.py
 
 ## DADOS INICIAIS:
 - Os arquivos de dados são criados automaticamente na pasta data/
 - Crie pelo menos um usuário professor e um aluno via interface
+- Para o caso de apenas vizualização do funcionamneto da plataforma, pode se usar os seguintes logins:
+#### Para o aluno:
+
+- Email: admin_aluno
+- Senha: admin
+
+#### Para o professor:
+- Email: admin_professor
+- Senha: admin
 
 ## ESTRUTURA DE DIRETÓRIOS
 
@@ -157,7 +167,7 @@ projeto-curso/
 
 │  ├── gui_professor.py
 
-│  └── gui_common.py
+│  └── gui_comum.py
 
 ├── main_aluno.py
 
