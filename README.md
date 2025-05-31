@@ -1,16 +1,21 @@
 
---Plataforma de Cursos em Python com Interface Gráfica
-Descrição do Projeto
+# Plataforma de Cursos em Python
+
+## Descrição do Projeto
+
 Esta aplicação desktop desenvolvida em Python oferece uma plataforma completa para gerenciamento de cursos educacionais, atendendo a dois perfis de usuário:
 
-Alunos: Visualizam cursos, acessam aulas, respondem exercícios e veem correções
+- Alunos: Visualizam cursos, acessam aulas, respondem exercícios e veem correções
 
-Professores: Criam e gerenciam cursos, aulas e exercícios, e corrigem respostas dos alunos
+- Professores: Criam e gerenciam cursos, aulas e exercícios, e corrigem respostas dos alunos
 
 O sistema resolve o problema de organização e gestão de conteúdo educacional em ambiente desktop, proporcionando uma experiência intuitiva para ambos os perfis.
 
+---
+
 Casos de Uso
-🆕 Cadastro de Usuário
+## 🆕 Cadastro de Usuário
+
 Acesse a tela de login
 
 Clique em "Cadastrar"
@@ -21,21 +26,24 @@ Selecione perfil (Aluno ou Professor)
 
 Sistema valida e cria nova conta
 
-🔑 Login
+##🔑 Login
+
 Insira email e senha
 
 Sistema verifica credenciais
 
 Redireciona para interface correspondente
 
-👨‍🎓 Aluno Visualiza Curso
+## 👨‍🎓 Aluno Visualiza Curso
+
 Faça login como aluno
 
 Selecione curso na lista
 
 Sistema exibe conteúdo organizado em aulas e exercícios
 
-✍️ Aluno Responde Exercício
+## ✍️ Aluno Responde Exercício
+
 Selecione exercício
 
 Digite resposta na área de texto
@@ -44,7 +52,8 @@ Clique em "Enviar Resposta"
 
 Sistema armazena a resposta
 
-➕ Professor Cria Curso
+## ➕ Professor Cria Curso
+
 Faça login como professor
 
 Clique em "Novo Curso"
@@ -53,7 +62,8 @@ Insira título do curso
 
 Sistema cria curso e adiciona à lista
 
-📚 Professor Adiciona Aula
+## 📚 Professor Adiciona Aula
+
 Selecione curso
 
 Clique em "+ Nova Aula"
@@ -62,7 +72,8 @@ Insira título e conteúdo
 
 Sistema adiciona aula ao curso
 
-📝 Professor Corrige Exercício
+## 📝 Professor Corrige Exercício
+
 Selecione exercício
 
 Clique em "Corrigir"
@@ -118,12 +129,14 @@ INSTRUÇÕES:
    - Para professor:
      python main_professor.py
 
-DADOS INICIAIS:
+## DADOS INICIAIS:
 - Os arquivos de dados são criados automaticamente na pasta data/
 - Crie pelo menos um usuário professor e um aluno via interface
 
-ESTRUTURA DE DIRETÓRIOS
+## ESTRUTURA DE DIRETÓRIOS
+
 projeto-curso/
+
 ├── data/
 
 │  ├── usuarios.json
