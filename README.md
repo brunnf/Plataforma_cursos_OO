@@ -1,5 +1,5 @@
 
-Plataforma de Cursos em Python com Interface Gráfica
+--Plataforma de Cursos em Python com Interface Gráfica
 Descrição do Projeto
 Esta aplicação desktop desenvolvida em Python oferece uma plataforma completa para gerenciamento de cursos educacionais, atendendo a dois perfis de usuário:
 
