@@ -89,23 +89,32 @@ Escreva feedback
 
 Clique em "Salvar Correção"
 
-Funcionalidades
-Para Alunos
-Funcionalidade	Descrição
-Listagem de cursos	Visualização de todos os cursos disponíveis
-Conteúdo de aulas	Acesso ao material textual das aulas
-Resposta a exercícios	Envio de respostas para exercícios propostos
-Visualização de feedback	Acesso a notas e comentários do professor
-Status de exercícios	Indicação visual (Enviado/Corrigido)
-Para Professores
-Funcionalidade	Descrição
-Gestão de cursos	Criação, edição e exclusão de cursos
-Gestão de aulas	Adição, edição e remoção de aulas
-Gestão de exercícios	Criação, edição e exclusão de exercícios
-Correção de respostas	Atribuição de notas e feedbacks
-Visualização de submissões	Acesso a todas as respostas dos alunos
+## 🚀 Funcionalidades
+
+### 👨‍🎓 Para Alunos
+
+| Funcionalidade             | Descrição                                      |
+|---------------------------|------------------------------------------------|
+| **Listagem de cursos**    | Visualização de todos os cursos disponíveis   |
+| **Conteúdo de aulas**     | Acesso ao material textual das aulas          |
+| **Resposta a exercícios** | Envio de respostas para exercícios propostos  |
+| **Visualização de feedback** | Acesso a notas e comentários do professor   |
+| **Status de exercícios**  | Indicação visual (Enviado/Corrigido)          |
+
+### 👨‍🏫 Para Professores
+
+| Funcionalidade              | Descrição                                        |
+|----------------------------|--------------------------------------------------|
+| **Gestão de cursos**        | Criação, edição e exclusão de cursos            |
+| **Gestão de aulas**         | Adição, edição e remoção de aulas               |
+| **Gestão de exercícios**    | Criação, edição e exclusão de exercícios        |
+| **Correção de respostas**   | Atribuição de notas e feedbacks                 |
+| **Visualização de submissões** | Acesso a todas as respostas dos alunos     |
+
+---
 
 #### Tecnologias Utilizadas
+
 Python 3.x: Linguagem principal
 
 Tkinter: Framework para interface gráfica
@@ -117,9 +126,11 @@ POO: Programação Orientada a Objetos
 ## COMO EXECUTAR
 
 ### PRÉ-REQUISITOS:
+
 - Python 3.x instalado
 
 ### INSTRUÇÕES:
+
 1. Clone o repositório:
    git clone https://github.com/seu-usuario/projeto-curso.git
    cd projeto-curso
@@ -133,13 +144,16 @@ POO: Programação Orientada a Objetos
 ## DADOS INICIAIS:
 - Os arquivos de dados são criados automaticamente na pasta data/
 - Crie pelo menos um usuário professor e um aluno via interface
-- Para o caso de apenas vizualização do funcionamneto da plataforma, pode se usar os seguintes logins:
+- 
+### Para o caso de apenas vizualização do funcionamneto da plataforma, pode-se usar os seguintes logins:
+
 #### Para o aluno:
 
 - Email: admin_aluno
 - Senha: admin
 
 #### Para o professor:
+
 - Email: admin_professor
 - Senha: admin
 
