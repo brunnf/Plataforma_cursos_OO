@@ -134,6 +134,7 @@ Clique em "Salvar Correção"
 
 - JSON: Sistema de persistência de dados
 
+---
 
 ## COMO EXECUTAR
 
@@ -159,9 +160,10 @@ Clique em "Salvar Correção"
      python main_professor.py
 
 ## DADOS INICIAIS:
+
 - Os arquivos de dados são criados automaticamente na pasta data/
 - Crie pelo menos um usuário professor e um aluno via interface
-- 
+  
 ### Para o caso de apenas vizualização do funcionamneto da plataforma, pode-se usar os seguintes logins:
 
 #### Para o aluno:
@@ -206,7 +208,7 @@ projeto-curso/
 
 └── README.md
 
-# ✏️ Autor
+##  Autor
 
 Bruno Ferreira Dornelas
 
