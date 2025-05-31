@@ -1,22 +1,36 @@
 [
   {
     "user_id": 1,
-    "name": "joaoprof",
-    "email": "joaoprof",
-    "password": "123",
+    "name": "admin",
+    "email": "admin_professor",
+    "password": "admin",
     "type": "Professor"
   },
   {
     "user_id": 2,
-    "name": "joao",
-    "email": "joao",
-    "password": "123",
+    "name": "admin",
+    "email": "admin_aluno",
+    "password": "admin",
     "type": "Aluno"
   },
   {
     "user_id": 3,
     "name": "Bruno",
     "email": "bruno@",
+    "password": "123",
+    "type": "Aluno"
+  },
+  {
+    "user_id": 4,
+    "name": "joao",
+    "email": "joaoprof",
+    "password": "123",
+    "type": "Professor"
+  },
+  {
+    "user_id": 5,
+    "name": "joao",
+    "email": "joaoaluno",
     "password": "123",
     "type": "Aluno"
   }

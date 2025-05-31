@@ -5,7 +5,7 @@ from .course import Aula, Exercise
 class AlunoGUI(tk.Tk):
     def __init__(self, Aluno, persistence):
         super().__init__()
-        self.aluno = aluno
+        self.aluno = Aluno
         self.persistence = persistence
         self.courses = persistence.load_courses()
         self.current_course = None
